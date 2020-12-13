@@ -52,7 +52,7 @@ describe("Camera", function () {
       }
     });
 
-    const result = cameraTests.Run();
+    const result = cameraTests.run();
     assert.ok(result.isSuccessful());
   });
 });
