@@ -1,6 +1,6 @@
 {
   "name": "parsegraph-camera",
-  "version": "1.4.3-dev",
+  "version": "1.4.4-dev",
   "description": "camera",
   "main": "dist/parsegraph-camera.js",
   "types": "dist/parsegraph-camera.d.ts",
@@ -73,9 +73,9 @@
     "express": "^4.17.1",
     "glslify-loader": "^2.0.0",
     "openssl": "^1.1.0",
-    "parsegraph-matrix": "^1.4.5",
-    "parsegraph-rect": "^1.4.2",
-    "parsegraph-testsuite": "^1.4.2",
+    "parsegraph-matrix": "^1.4.7",
+    "parsegraph-rect": "^1.4.4",
+    "parsegraph-testsuite": "^1.4.3",
     "raw-loader": "^4.0.1",
     "ts-mocha": "^8.0.0",
     "webgl-mock": "^0.1.7"
