@@ -1,12 +1,12 @@
 export default function containsAll(
-    viewportX,
-    viewportY,
-    viewWidth,
-    viewHeight,
-    cx,
-    cy,
-    width,
-    height,
+  viewportX,
+  viewportY,
+  viewWidth,
+  viewHeight,
+  cx,
+  cy,
+  width,
+  height
 ) {
   const viewHalfWidth = viewWidth / 2;
   const viewHalfHeight = viewHeight / 2;
@@ -27,4 +27,3 @@ export default function containsAll(
   }
   return true;
 }
-
