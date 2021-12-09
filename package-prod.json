@@ -15,7 +15,7 @@
     },
     "homepage": "https://github.com/parsegraph/camera#readme",
     "dependencies": {
-      "parsegraph-matrix": "^1.4.7",
-      "parsegraph-rect": "^1.4.4"
+      "parsegraph-matrix": "^1.4.8",
+      "parsegraph-rect": "^1.4.5"
     }
   }
