@@ -1,11 +1,14 @@
-import todo from ".";
+import Camera from "./index";
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("demo");
   root.style.position = "relative";
 
+  const cam = new Camera();
+  cam.setSize(300, 300);
+
   const container = document.createElement("div");
-  container.innerHTML = `${todo()}`;
+  container.innerHTML = `${JSON.stringify(cam.project())}`;
   container.style.position = "absolute";
   container.style.left = "0px";
   container.style.top = "0px";
