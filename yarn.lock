@@ -4000,6 +4000,11 @@ parsegraph-rect@^1.4.5:
   resolved "https://registry.yarnpkg.com/parsegraph-rect/-/parsegraph-rect-1.4.5.tgz#aad0401b4c22381231014fd558ea967e01cdb45f"
   integrity sha512-hgsP9N15mYeSISgeMU2l1GHJEjAouuFgdQW89EGTav8ntM93xC628Lz5+mYvx/mljbuC5lR/OBSw6EuV0A9GxA==
 
+parsegraph-testsuite@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/parsegraph-testsuite/-/parsegraph-testsuite-1.6.0.tgz#7048f919aca14b26105ab987c814771158a05f6d"
+  integrity sha512-mihg24Lc7S11770uWDHXgtUsGyEPEmYyZbd4tjJj1+QUvcxnagVEwvB/vetWjgFl10+ukYiq7BmcLd+evbFIXg==
+
 path-exists@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"
