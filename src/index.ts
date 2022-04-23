@@ -55,13 +55,18 @@ export default class Camera {
     return true;
   }
 
-  zoomToPoint(scaleFactor: number, x: number, y: number): void {
-    // Get the current mouse position, in world space.
+  transform(x: number, y:number): [number, number] {
     const mouseInWorld = matrixTransform2D(
       makeInverse3x3(this.worldMatrix()),
       x,
       y
     );
+    return [mouseInWorld[0], mouseInWorld[1]];
+  }
+
+  zoomToPoint(scaleFactor: number, x: number, y: number): void {
+    // Get the current mouse position, in world space.
+    const mouseInWorld = this.transform(x, y);
     // console.log("mouseInWorld=" + mouseInWorld[0] + ", " + mouseInWorld[1]);
 
     // Adjust the scale.
@@ -120,6 +125,7 @@ export default class Camera {
   }
 
   copy(other: Camera): void {
+    this.setSize(other.width(), other.height());
     this.setOrigin(other.x(), other.y());
     this.setScale(other.scale());
   }
