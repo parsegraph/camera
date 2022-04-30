@@ -1,6 +1,6 @@
 {
   "name": "parsegraph-camera",
-  "version": "1.4.17",
+  "version": "1.4.18",
   "description": "camera",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
