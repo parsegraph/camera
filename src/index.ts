@@ -55,7 +55,7 @@ export default class Camera {
     return true;
   }
 
-  transform(x: number, y:number): [number, number] {
+  transform(x: number, y: number): [number, number] {
     const mouseInWorld = matrixTransform2D(
       makeInverse3x3(this.worldMatrix()),
       x,
