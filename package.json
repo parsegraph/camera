@@ -15,8 +15,8 @@
   },
   "homepage": "https://github.com/parsegraph/camera#readme",
   "dependencies": {
-    "parsegraph-matrix": "^1.4.13",
-    "parsegraph-rect": "^1.5.2"
+    "parsegraph-matrix": "^1.4.14",
+    "parsegraph-rect": "^1.5.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
